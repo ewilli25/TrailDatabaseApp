@@ -1,0 +1,396 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		953915E529FA055F00251B1F /* NewTrailInfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 953915E429FA055F00251B1F /* NewTrailInfoView.swift */; };
+		DE13DC6C29E4834800CE520E /* CompassHeading.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE13DC6B29E4834800CE520E /* CompassHeading.swift */; };
+		DE20467F29ECDA12005CEC2F /* AddParkView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE20467E29ECDA12005CEC2F /* AddParkView.swift */; };
+		DE20468129ECE845005CEC2F /* RatingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE20468029ECE845005CEC2F /* RatingView.swift */; };
+		DE7E042629E4932E00DB4574 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE7E042529E4932E00DB4574 /* MainView.swift */; };
+		DE7E042829E493F900DB4574 /* AddTrailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE7E042729E493F900DB4574 /* AddTrailView.swift */; };
+		DE7E042A29E495E100DB4574 /* AddLocationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE7E042929E495E100DB4574 /* AddLocationView.swift */; };
+		DECC6EAB29CE72B0007A20DB /* Trail_DatabaseApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = DECC6EAA29CE72B0007A20DB /* Trail_DatabaseApp.swift */; };
+		DECC6EAD29CE72B0007A20DB /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DECC6EAC29CE72B0007A20DB /* ContentView.swift */; };
+		DECC6EAF29CE72B3007A20DB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DECC6EAE29CE72B3007A20DB /* Assets.xcassets */; };
+		DECC6EB229CE72B3007A20DB /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DECC6EB129CE72B3007A20DB /* Preview Assets.xcassets */; };
+		DECC6EB929CEA571007A20DB /* ParkList.swift in Sources */ = {isa = PBXBuildFile; fileRef = DECC6EB829CEA571007A20DB /* ParkList.swift */; };
+		DECC6EBD29CEB049007A20DB /* TrailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DECC6EBC29CEB049007A20DB /* TrailView.swift */; };
+		DECC8E9E29F1B67E00EFED42 /* TrailInfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DECC8E9D29F1B67E00EFED42 /* TrailInfoView.swift */; };
+		DECC8EA029F1C61100EFED42 /* TrailImagesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DECC8E9F29F1C61100EFED42 /* TrailImagesView.swift */; };
+		DECC8EA529F85B7E00EFED42 /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DECC8EA429F85B7E00EFED42 /* MapView.swift */; };
+		DEE2DEB829D6065C00649A51 /* CompassView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEE2DEB729D6065C00649A51 /* CompassView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		953915E429FA055F00251B1F /* NewTrailInfoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewTrailInfoView.swift; sourceTree = "<group>"; };
+		DE13DC6B29E4834800CE520E /* CompassHeading.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CompassHeading.swift; sourceTree = "<group>"; };
+		DE20467E29ECDA12005CEC2F /* AddParkView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddParkView.swift; sourceTree = "<group>"; };
+		DE20468029ECE845005CEC2F /* RatingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RatingView.swift; sourceTree = "<group>"; };
+		DE7E042529E4932E00DB4574 /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
+		DE7E042729E493F900DB4574 /* AddTrailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddTrailView.swift; sourceTree = "<group>"; };
+		DE7E042929E495E100DB4574 /* AddLocationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddLocationView.swift; sourceTree = "<group>"; };
+		DECC6EA729CE72B0007A20DB /* Trail Database.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Trail Database.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DECC6EAA29CE72B0007A20DB /* Trail_DatabaseApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Trail_DatabaseApp.swift; sourceTree = "<group>"; };
+		DECC6EAC29CE72B0007A20DB /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		DECC6EAE29CE72B3007A20DB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DECC6EB129CE72B3007A20DB /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		DECC6EB829CEA571007A20DB /* ParkList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParkList.swift; sourceTree = "<group>"; };
+		DECC6EBC29CEB049007A20DB /* TrailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrailView.swift; sourceTree = "<group>"; };
+		DECC8E9D29F1B67E00EFED42 /* TrailInfoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrailInfoView.swift; sourceTree = "<group>"; };
+		DECC8E9F29F1C61100EFED42 /* TrailImagesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrailImagesView.swift; sourceTree = "<group>"; };
+		DECC8EA429F85B7E00EFED42 /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
+		DEE2DEB729D6065C00649A51 /* CompassView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CompassView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DECC6EA429CE72B0007A20DB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DECC6E9E29CE72B0007A20DB = {
+			isa = PBXGroup;
+			children = (
+				DECC6EA929CE72B0007A20DB /* Trail Database */,
+				DECC6EA829CE72B0007A20DB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DECC6EA829CE72B0007A20DB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DECC6EA729CE72B0007A20DB /* Trail Database.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DECC6EA929CE72B0007A20DB /* Trail Database */ = {
+			isa = PBXGroup;
+			children = (
+				DECC6EAA29CE72B0007A20DB /* Trail_DatabaseApp.swift */,
+				DECC6EAC29CE72B0007A20DB /* ContentView.swift */,
+				DE7E042529E4932E00DB4574 /* MainView.swift */,
+				DE7E042729E493F900DB4574 /* AddTrailView.swift */,
+				DE20468029ECE845005CEC2F /* RatingView.swift */,
+				DE7E042929E495E100DB4574 /* AddLocationView.swift */,
+				DE20467E29ECDA12005CEC2F /* AddParkView.swift */,
+				DE13DC6B29E4834800CE520E /* CompassHeading.swift */,
+				DECC6EBC29CEB049007A20DB /* TrailView.swift */,
+				DECC8E9D29F1B67E00EFED42 /* TrailInfoView.swift */,
+				953915E429FA055F00251B1F /* NewTrailInfoView.swift */,
+				DECC8E9F29F1C61100EFED42 /* TrailImagesView.swift */,
+				DEE2DEB729D6065C00649A51 /* CompassView.swift */,
+				DECC8EA429F85B7E00EFED42 /* MapView.swift */,
+				DECC6EAE29CE72B3007A20DB /* Assets.xcassets */,
+				DECC6EB029CE72B3007A20DB /* Preview Content */,
+			);
+			path = "Trail Database";
+			sourceTree = "<group>";
+		};
+		DECC6EB029CE72B3007A20DB /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				DECC6EB129CE72B3007A20DB /* Preview Assets.xcassets */,
+				DECC6EB829CEA571007A20DB /* ParkList.swift */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DECC6EA629CE72B0007A20DB /* Trail Database */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DECC6EB529CE72B3007A20DB /* Build configuration list for PBXNativeTarget "Trail Database" */;
+			buildPhases = (
+				DECC6EA329CE72B0007A20DB /* Sources */,
+				DECC6EA429CE72B0007A20DB /* Frameworks */,
+				DECC6EA529CE72B0007A20DB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Trail Database";
+			productName = "Trail Database";
+			productReference = DECC6EA729CE72B0007A20DB /* Trail Database.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DECC6E9F29CE72B0007A20DB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1420;
+				LastUpgradeCheck = 1420;
+				TargetAttributes = {
+					DECC6EA629CE72B0007A20DB = {
+						CreatedOnToolsVersion = 14.2;
+					};
+				};
+			};
+			buildConfigurationList = DECC6EA229CE72B0007A20DB /* Build configuration list for PBXProject "Trail Database" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DECC6E9E29CE72B0007A20DB;
+			productRefGroup = DECC6EA829CE72B0007A20DB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DECC6EA629CE72B0007A20DB /* Trail Database */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DECC6EA529CE72B0007A20DB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DECC6EB229CE72B3007A20DB /* Preview Assets.xcassets in Resources */,
+				DECC6EAF29CE72B3007A20DB /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DECC6EA329CE72B0007A20DB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DE20468129ECE845005CEC2F /* RatingView.swift in Sources */,
+				DECC6EAD29CE72B0007A20DB /* ContentView.swift in Sources */,
+				DE7E042629E4932E00DB4574 /* MainView.swift in Sources */,
+				DE7E042829E493F900DB4574 /* AddTrailView.swift in Sources */,
+				DECC6EB929CEA571007A20DB /* ParkList.swift in Sources */,
+				DE13DC6C29E4834800CE520E /* CompassHeading.swift in Sources */,
+				DEE2DEB829D6065C00649A51 /* CompassView.swift in Sources */,
+				DECC8EA529F85B7E00EFED42 /* MapView.swift in Sources */,
+				DE20467F29ECDA12005CEC2F /* AddParkView.swift in Sources */,
+				953915E529FA055F00251B1F /* NewTrailInfoView.swift in Sources */,
+				DE7E042A29E495E100DB4574 /* AddLocationView.swift in Sources */,
+				DECC8EA029F1C61100EFED42 /* TrailImagesView.swift in Sources */,
+				DECC8E9E29F1B67E00EFED42 /* TrailInfoView.swift in Sources */,
+				DECC6EBD29CEB049007A20DB /* TrailView.swift in Sources */,
+				DECC6EAB29CE72B0007A20DB /* Trail_DatabaseApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		DECC6EB329CE72B3007A20DB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		DECC6EB429CE72B3007A20DB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DECC6EB629CE72B3007A20DB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Trail Database/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "Please allow location to be used";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "CMSC436.Trail-Database";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		DECC6EB729CE72B3007A20DB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Trail Database/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "Please allow location to be used";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "CMSC436.Trail-Database";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DECC6EA229CE72B0007A20DB /* Build configuration list for PBXProject "Trail Database" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DECC6EB329CE72B3007A20DB /* Debug */,
+				DECC6EB429CE72B3007A20DB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DECC6EB529CE72B3007A20DB /* Build configuration list for PBXNativeTarget "Trail Database" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DECC6EB629CE72B3007A20DB /* Debug */,
+				DECC6EB729CE72B3007A20DB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DECC6E9F29CE72B0007A20DB /* Project object */;
+}
